@@ -59,12 +59,16 @@ const Footer = () => {
 
                     {/* Badge / Logo */}
                     <div className="col-lg-3 col-md-12 d-flex justify-content-lg-end align-items-start">
-                        <img
-                            src={Logo}
-                            alt="Award Badge"
-                            className="footer-badge w-100"
+                        <div className="connect">
+                            <img
+                                src={Logo}
+                                alt="Award Badge"
+                                className="footer-badge w-100"
 
-                        />
+                            />
+                            <a className="text-light nav-link d-block mt-2" href="https://maps.app.goo.gl/oG4XzxXG5LztK7H96">Mr. Makeover Salon, Palm Mall, T.P. Nagar, Korba (C.G.)</a>
+                            <a className="text-light nav-link d-block mt-2" href="tel:9827706661">+91 98277 06661</a>
+                        </div>
                     </div>
 
                 </div>
