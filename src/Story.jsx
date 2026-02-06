@@ -19,14 +19,7 @@ function Story() {
     <h2 className="about-title mb-4">ABOUT US</h2>
 
     <div className="about-video mb-4">
-      <iframe
-        width="100%"
-        height="400"
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        title="Mr Makeover Story"
-        frameBorder="0"
-        allowFullScreen
-      ></iframe>
+     <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy7W3c_1Xl8UT-IpuKkbr1iZ8I1b92M1Z21owXyhKFM3Q68tJ-eM1xx7ihXYdagBzYtwKA6uU17LISTnfYFE1dVhXC6K8VGNt8jG6SmfIY9EjZJmHBEGivqObO95m2C_1mJQAuB=s1360-w1360-h1020-rw" alt="" className="w-100" />
     </div>
 
     <p className="about-text">

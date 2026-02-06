@@ -1,0 +1,75 @@
+<section id="salon-menu" style="background:#fff; color:#000; font-family: sans-serif; padding: 50px 10px; max-width: 900px; margin: auto;">
+    
+    <style>
+        .menu-cat { margin-bottom: 40px; }
+        .menu-cat-title { 
+            font-size: 24px; text-transform: uppercase; letter-spacing: 2px; 
+            border-bottom: 2px solid #000; padding-bottom: 10px; margin-bottom: 20px; 
+        }
+        .menu-row { 
+            display: grid; grid-template-columns: 1fr 100px 100px; 
+            padding: 12px 5px; border-bottom: 1px solid #f0f0f0; transition: 0.3s;
+        }
+        .menu-row:hover { background: #f9f9f9; }
+        .m-head { font-weight: bold; text-transform: uppercase; font-size: 13px; color: #666; }
+        .p-val { text-align: right; font-weight: 600; }
+        @media (max-width: 500px) {
+            .menu-row { grid-template-columns: 1fr 70px 70px; font-size: 14px; }
+        }
+    </style>
+
+    <div style="text-align: center; margin-bottom: 60px;">
+        <h2 style="font-size: 40px; margin: 0; text-transform: uppercase;">Our Services</h2>
+        <div style="width: 50px; height: 3px; background: #000; margin: 15px auto;"></div>
+    </div>
+
+    <div className="menu-cat">
+        <h3 className="menu-cat-title">Threading</h3>
+        <div className="menu-row m-head"><span>Service</span><span className="p-val">King</span><span className="p-val">Queen</span></div>
+        <div className="menu-row"><span>Eyebrow</span><span className="p-val">50</span><span className="p-val">50</span></div>
+        <div className="menu-row"><span>Upper lips</span><span className="p-val">-</span><span className="p-val">30</span></div>
+        <div className="menu-row"><span>Chin</span><span className="p-val">-</span><span className="p-val">20</span></div>
+        <div className="menu-row"><span>Forehead</span><span className="p-val">-</span><span className="p-val">20</span></div>
+        <div className="menu-row"><span>Side Lock</span><span className="p-val">-</span><span className="p-val">50</span></div>
+        <div className="menu-row"><span>Full face threading</span><span className="p-val">250</span><span className="p-val">250</span></div>
+    </div>
+
+    <div className="menu-cat">
+        <h3 className="menu-cat-title">Beard Colour 🧔</h3>
+        <div className="menu-row m-head"><span>Length</span><span className="p-val">Majirel</span><span className="p-val">Inoa</span></div>
+        <div className="menu-row"><span>Short length</span><span className="p-val">300</span><span className="p-val">400</span></div>
+        <div className="menu-row"><span>Long length</span><span className="p-val">400</span><span className="p-val">500</span></div>
+        <div className="menu-row"><span>Moustache colour</span><span className="p-val">50</span><span className="p-val">100</span></div>
+    </div>
+
+    <div className="menu-cat">
+        <h3 className="menu-cat-title">Waxing</h3>
+        <div className="menu-row m-head"><span>Area</span><span className="p-val">King</span><span className="p-val">Queen</span></div>
+        <div className="menu-row"><span>Under Arms</span><span className="p-val">100</span><span className="p-val">100</span></div>
+        <div className="menu-row"><span>Full hand</span><span className="p-val">600</span><span className="p-val">400</span></div>
+        <div className="menu-row"><span>Full legs</span><span className="p-val">800</span><span className="p-val">600</span></div>
+        <div className="menu-row"><span>Half legs</span><span className="p-val">400</span><span className="p-val">400</span></div>
+        <div className="menu-row"><span>Half back</span><span className="p-val">350</span><span className="p-val">350</span></div>
+        <div className="menu-row"><span>Full back</span><span className="p-val">800</span><span className="p-val">800</span></div>
+        <div className="menu-row"><span>Tummy</span><span className="p-val">450</span><span className="p-val">450</span></div>
+        <div className="menu-row"><span>Full body wax</span><span className="p-val">2500</span><span className="p-val">3500</span></div>
+        <div className="menu-row"><span>Face wax</span><span className="p-val">-</span><span className="p-val">350</span></div>
+        <div className="menu-row"><span>Upper lips</span><span className="p-val">-</span><span className="p-val">50</span></div>
+        <div className="menu-row"><span>Chin/Side Lauks</span><span className="p-val">-</span><span className="p-val">100</span></div>
+        <div className="menu-row"><span>Chest</span><span className="p-val">500</span><span className="p-val">Onward</span></div>
+    </div>
+
+    <div className="menu-cat">
+        <h3 className="menu-cat-title">Premium Flavour Wax</h3>
+        <div className="menu-row m-head"><span>Area</span><span className="p-val">King</span><span className="p-val">Queen</span></div>
+        <div className="menu-row"><span>Under Arms</span><span className="p-val">150</span><span className="p-val">150</span></div>
+        <div className="menu-row"><span>Full hand</span><span className="p-val">500</span><span className="p-val">600</span></div>
+        <div className="menu-row"><span>Full legs</span><span className="p-val">900</span><span className="p-val">900</span></div>
+        <div className="menu-row"><span>Half legs</span><span className="p-val">500</span><span className="p-val">450</span></div>
+        <div className="menu-row"><span>Full back</span><span className="p-val">1200</span><span className="p-val">1200</span></div>
+        <div className="menu-row"><span>Half back</span><span className="p-val">600</span><span className="p-val">600</span></div>
+        <div className="menu-row"><span>Tummy</span><span className="p-val">800</span><span className="p-val">800</span></div>
+        <div className="menu-row"><span>Full body wax</span><span className="p-val">4000</span><span className="p-val">4500</span></div>
+        <div className="menu-row"><span>Face</span><span className="p-val">-</span><span className="p-val">400</span></div>
+    </div>
+</section>

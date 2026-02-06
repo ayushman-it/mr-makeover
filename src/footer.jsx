@@ -46,16 +46,37 @@ const Footer = () => {
 
                     {/* Column 3 */}
                     <div className="col-lg-3 col-md-6 mb-4">
-                        <h5 className="footer-title">COMPANY</h5>
+                        <h5 className="footer-title">SERVICES</h5>
                         <ul className="footer-list">
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Refer A Friend</a></li>
-                            <li><a href="#">Cookie Policy</a></li>
+                            <li>
+                                <a href="#">
+                                    Hair Spa <span className="price">₹999</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Hair Keratin Treatment <span className="price">₹2999</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Hair Shine Treatment (Any Length)
+                                    <span className="price">₹6999</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Hair Bluetox <span className="price">₹5999</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Nanoplastia Treatment <span className="price">₹7999</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
+
 
                     {/* Badge / Logo */}
                     <div className="col-lg-3 col-md-12 d-flex justify-content-lg-end align-items-start">
