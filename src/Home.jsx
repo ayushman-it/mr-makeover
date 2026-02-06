@@ -88,7 +88,7 @@ const menu = {
             female: "₹400+",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL_AJaa1zGKhkTFCMBQoDErrPF_iqX5CDvDw&s"
         }
-    ]
+    ],
 
 
     "Highlights": [
